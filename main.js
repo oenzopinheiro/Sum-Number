@@ -32,5 +32,5 @@ function updateResult() {
 function clearNumbers() {
     numbers = [];
     document.getElementById("number").value = '';
-    document.getElementById("result").textContent = " ";
+    document.getElementById("result").textContent = "0";
 }
