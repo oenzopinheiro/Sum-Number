@@ -1,4 +1,4 @@
-var numbers = [];
+let numbers = [];
 
 function addNumber() {
     var numberEntered = parseFloat(document.getElementById("number").value);
