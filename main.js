@@ -15,7 +15,7 @@ function calcSum() {
     for (var i = 0; i < numbers.length; i++) {
         sum += numbers[i];
     }
-    document.getElementById("result").textContent += sum;
+    document.getElementById("result").textContent += "=" + sum;
 }
 
 function updateResult() {
